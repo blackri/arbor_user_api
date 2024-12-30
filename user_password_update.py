@@ -30,7 +30,7 @@ perpage = 400 # Number of results per page
 group_name = "ddosops" # Group name for the users who are allowed to run this script
 url = "https://arborpi-02.host.ctl.one/index" # URL for the login page
 url_user = "https://arborpi-02.host.ctl.one/api/sp/v12/user_accounts/" # URL for the user accounts
-script_path = "/home/rblackwe/scripts/arbor_api/" # Path to the script
+script_path = "/export/home/rblackwe/scripts/arbor_user_api/" # Path to the script
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) # Disable SSL warnings
 
 
