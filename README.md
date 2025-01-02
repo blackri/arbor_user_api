@@ -5,19 +5,20 @@ This script is designed to change the password of an Arbor user account. It uses
 
 ## Prerequisites
 - Python 3.x
+
 - Required Python packages:
--- requests
--- json
--- urllib3
--- logging
--- grp
--- os
--- sys
--- secrets
--- string
--- time
--- random
--- rich
+- requests
+- json
+- urllib3
+- logging
+- grp
+- os
+- sys
+- secrets
+- string
+- time
+- random
+- rich
 
 ## Environment Variables
 ARBOR_API_TOKEN: The Arbor API token required for authentication.
